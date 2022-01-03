@@ -1,6 +1,14 @@
 # birdpedia
 A web application in Go (golang) to display the different entries submitted by the community, with the name and details of the bird they found. and allow anyone to post a new entry about a bird that they saw.
 
+To run the server on your system:
+
+1. Run `go build` to create the binary (`birdpedia`)
+1. Run the binary : `./birdpedia`
+
+To run tests, run `go test ./...`
+
+
 # This website :
 
 - Displays the different entries submitted by the community, with the name and details of the bird they found.
